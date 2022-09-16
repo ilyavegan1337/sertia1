@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap')
+
+li
+    list-style: none
+input
+    outline: none
+button
+    font-weight: 400
+    font-size: 14px
+    text-align: center
+
+    color: #FFFFFF
+    margin-top: 10px
+    width: 140px
+    height: 40px
+    border: none
+    background: #B26F5C
+    border-radius: 5px
+
+.btn
+    margin-top: 65px
+    font-weight: 400
+    color: #fff
+    font-size: 20px
+    border: none
+    width: 304px
+    height: 74px
+    background: #B26F5C
+    border-radius: 10px
+.input
+    padding-left: 5px
+    margin-top: 5px
+    color: #D9D5D5
+    border: none
+    width: 300px
+    height: 40px
+    background: #7B7D8C
+    border-radius: 5px
+.input::placeholder
+    padding-left: 5px
+    color: #D9D5D5
+    font-weight: 400
+    font-size: 12px
+.search
+    padding: 5px
+    form
+        display: flex
+        justify-content: flex-end
+        input
+            margin: 0
+            padding-left: 10px
+
+*
+    margin: 0
+    font-family: 'Open Sans', sans-serif
+.container
+    max-width: 1440px
+    margin: 0 auto
+
+// Header
+.header
+    margin-top: 60px
+    &_navigation nav
+        display: flex
+        justify-content: space-between
+        ul
+            display: flex
+            li
+                margin-left: 40px
+                a
+                    text-decoration: none
+                    color: #000
+                    transition: all 0.1s ease
+                a:hover
+                    color: #B26F5C
+                .basket
+                    background: url('/img/product/29.png') no-repeat
+                    display: block
+                    width: 22px
+                    height: 22px
+                .basket:hover
+                    background: url('/img/product/30.png') no-repeat
+// Footer
+.footer
+    padding: 20px 0
+    &_wrapper
+        display: flex
+        justify-content: space-between
+    &_container
+        font-family: 'Poppins'
+        max-width: 380px
+        p
+            margin: 0
+            margin-top: 15px
+            font-weight: 400
+            font-size: 15px
+        h2
+            margin: 0
+            font-weight: 700
+            font-size: 24px
+    &_container1
+    &_container2
+        form
+            margin-top: 20px
+            max-width: 305px
+            display: flex
+            flex-direction: column
+
+    &_container3
+        display: flex
+        align-items: center
+
+        a
+            margin-left: 50px
+    &_bottom_text
+        margin-top: 100px
+        text-align: center
+        p
+            font-family: 'Open Sans'
+            font-weight: 400
+            font-size: 16px
+.error
+    h2
+        color: #d44848
+        margin-bottom: 25px
+        font-weight: 400
+.justify
+    justify-content: left

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/basket.sass"
+    ],
+    "names": [],
+    "file": "basket.min.css"
+}
